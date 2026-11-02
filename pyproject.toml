@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "fortekaspi-moearch_jd247"
+name = "fortekaspi-chunking_recall_impact_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列MoE 模型架构师·分块策略对召回的影响的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://fortekaspi.github.io"
-Repository = "https://github.com/fortekaspi/moearch_jd247"
-Issues = "https://github.com/fortekaspi/moearch_jd247/issues"
+Repository = "https://github.com/fortekaspi/chunking_recall_impact_timeline_score"
+Issues = "https://github.com/fortekaspi/chunking_recall_impact_timeline_score/issues"
 
 [project.scripts]
-moearch_jd247 = "moearch_jd247:main"
+chunking_recall_impact_timeline_score = "chunking_recall_impact_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["moearch_jd247"]
+py-modules = ["chunking_recall_impact_timeline_score"]

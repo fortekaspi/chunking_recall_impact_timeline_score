@@ -1,11 +1,11 @@
-# moearch_jd247
+# chunking_recall_impact_timeline_score
 
 **按时间线排列MoE 模型架构师·分块策略对召回的影响并标出节奏异常。**
 
-`moearch_jd247` —— 解析时间标记，排列MoE 模型架构师·分块策略对召回的影响的发生顺序，标出间隔异常与逆序事件
+`chunking_recall_impact_timeline_score` —— 解析时间标记，排列MoE 模型架构师·分块策略对召回的影响的发生顺序，标出间隔异常与逆序事件
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`moearch_jd247.py` 拷走就能用
+- 单文件，`chunking_recall_impact_timeline_score.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install fortekaspi-moearch_jd247
+pip install fortekaspi-chunking_recall_impact_timeline_score
 ```
 
 装完直接用命令名调用：
 
 ```bash
-moearch_jd247 --help
+chunking_recall_impact_timeline_score --help
 ```
 
-也可以不用安装，直接把 `moearch_jd247.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `chunking_recall_impact_timeline_score.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ moearch_jd247 --help
 ## 用法
 
 ```bash
-python moearch_jd247.py --file input.txt
-python moearch_jd247.py --text "示例内容"
-python moearch_jd247.py --file input.txt --json
+python chunking_recall_impact_timeline_score.py --file input.txt
+python chunking_recall_impact_timeline_score.py --text "示例内容"
+python chunking_recall_impact_timeline_score.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python moearch_jd247.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_moearch_jd247.py
+python test_chunking_recall_impact_timeline_score.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_moearch_jd247.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/fortekaspi/moearch_jd247>
+- GitHub 仓库：<https://github.com/fortekaspi/chunking_recall_impact_timeline_score>
 
 ---
 
@@ -79,7 +79,7 @@ python test_moearch_jd247.py
 fortekaspi 做MoE 模型架构师·分块策略对召回的影响相关的问题，方向对标华为的专家MoE 模型架构师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://fortekaspi.github.io>
-- 仓库：<https://github.com/fortekaspi/moearch_jd247>
+- 仓库：<https://github.com/fortekaspi/chunking_recall_impact_timeline_score>
 
 ## 许可
 
